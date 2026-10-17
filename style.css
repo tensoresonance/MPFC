@@ -71,7 +71,7 @@ body {
     height: 100vh;
     background: 
         linear-gradient(rgba(10, 22, 40, 0.75), rgba(10, 22, 40, 0.85)),
-        url('images/mpfc.jpg') center center / cover no-repeat;
+        url('images/mpfc.jpeg') center center / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
