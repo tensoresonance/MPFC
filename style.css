@@ -80,14 +80,17 @@ body {
     overflow: hidden;
 }
 
-.hero::before {
-    content: '';
-    position: absolute;
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, rgba(254,190,16,0.15) 0%, transparent 70%);
-    top: -100px;
-    right: -100px;
+.hero {
+    height: 100vh;
+    background: 
+        linear-gradient(rgba(10, 22, 40, 0.55), rgba(10, 22, 40, 0.65)),
+        url('images/hero-bg.jpg') center 20% / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .hero-content h1 {
