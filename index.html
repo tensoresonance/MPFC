@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPFC | Official Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 導航列 -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="crest">⚽</span>
+            <span>MPFC</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">首頁</a></li>
+            <li><a href="#players">球員</a></li>
+            <li><a href="#stats">統計</a></li>
+            <li><a href="#gallery">相簿</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首頁 Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>MPFC</h1>
+            <p class="subtitle">追求卓越 · 永不放棄</p>
+            <a href="#players" class="btn">查看球員名單</a>
+        </div>
+    </section>
+
+    <!-- 球員名單 -->
+    <section id="players" class="section">
+        <h2 class="section-title">球員名單</h2>
+        <div class="players-grid" id="players-container">
+            <!-- 球員卡片會由 JavaScript 自動生成 -->
+        </div>
+    </section>
+
+    <!-- 統計數據 -->
+    <section id="stats" class="section dark">
+        <h2 class="section-title">賽季統計</h2>
+        <div class="stats-grid" id="stats-container">
+            <!-- 統計會自動生成 -->
+        </div>
+    </section>
+
+    <!-- 相簿 -->
+    <section id="gallery" class="section">
+        <h2 class="section-title">球隊相簿</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/photo1.jpg" alt="比賽照片" onerror="this.src='https://via.placeholder.com/400x300/1a1a2e/FEBE10?text=Photo+1'">
+            </div>
+            <div class="gallery-item">
+                <img src="images/photo2.jpg" alt="訓練照片" onerror="this.src='https://via.placeholder.com/400x300/1a1a2e/FEBE10?text=Photo+2'">
+            </div>
+            <div class="gallery-item">
+                <img src="images/photo3.jpg" alt="慶祝時刻" onerror="this.src='https://via.placeholder.com/400x300/1a1a2e/FEBE10?text=Photo+3'">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 MPFC · Made with ❤️ on GitHub Pages</p>
+    </footer>
+
+    <script src="players.js"></script>
+</body>
+</html>
